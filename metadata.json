@@ -1,0 +1,6 @@
+{
+  "name": "MAKARE — Manajemen Karyawan Redone",
+  "description": "Sistem operasional manajemen karyawan, absensi reguler & lembur, kios absensi publik, penggajian per jam & manual, buku kasbon, penutupan periode, dan laporan slip gaji PDF.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

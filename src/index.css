@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #F4F6F9;
+    color: #172033;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm 15mm;
+  }
+
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  header, aside, button, nav, .print\:hidden {
+    display: none !important;
+  }
+
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: visible !important;
+  }
+}
